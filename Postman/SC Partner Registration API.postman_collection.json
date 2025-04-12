@@ -1,0 +1,464 @@
+{
+	"info": {
+		"_postman_id": "20fa3280-7845-45d2-a95f-8596e3d95915",
+		"name": "SC Partner Registration API",
+		"description": "StartFragmentThis collection contains all endpoints for farmer registration, OTP verification, etc.EndFragment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44012410",
+		"_collection_link": "https://chetanmahalle.postman.co/workspace/da72d12f-8099-41bb-8273-e9415d6df26b/collection/44012410-20fa3280-7845-45d2-a95f-8596e3d95915?action=share&source=collection_link&creator=44012410"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Register SCP (profile_details.php)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "first_name",
+							"value": "Chetan",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "Sunil",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Mahalle",
+							"type": "text"
+						},
+						{
+							"key": "mobile_no",
+							"value": "9511865752",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "chetanmahalle7@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "scp_id",
+							"value": "SCP001",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secret123",
+							"type": "text"
+						},
+						{
+							"key": "password_c",
+							"value": "secret123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/SWP Task/php/profile_details.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SWP Task",
+						"php",
+						"profile_details.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register SCP (profile_details.php)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "first_name",
+							"value": "Chetan",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "Sunil",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Mahalle",
+							"type": "text"
+						},
+						{
+							"key": "mobile_no",
+							"value": "9511865752",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "chetanmahalle7@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "scp_id",
+							"value": "SCP001",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secret123",
+							"type": "text"
+						},
+						{
+							"key": "password_c",
+							"value": "secret123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/SWP Task/php/profile_details.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SWP Task",
+						"php",
+						"profile_details.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update SCP Address Details (address_detail.php)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "state",
+							"value": "Maharashtra",
+							"type": "text"
+						},
+						{
+							"key": "district",
+							"value": "Pune",
+							"type": "text"
+						},
+						{
+							"key": "pincode",
+							"value": "411001",
+							"type": "text"
+						},
+						{
+							"key": "permanent_address",
+							"value": "Shivaji Nagar",
+							"type": "text"
+						},
+						{
+							"key": "landmark",
+							"value": "Near Bus Stand",
+							"type": "text"
+						},
+						{
+							"key": "office_address",
+							"value": "Plot 23,IT Park Road",
+							"type": "text"
+						},
+						{
+							"key": "scp_certificate",
+							"type": "file",
+							"src": "/C:/Users/Hp/Downloads/pas photo.jpg"
+						},
+						{
+							"key": "office_photo",
+							"type": "file",
+							"src": "/C:/Users/Hp/Downloads/l11.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/SWP Task/php/address_detail.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SWP Task",
+						"php",
+						"address_detail.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate OTP (otp_g.php)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/SWP Task/php/otp_g.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SWP Task",
+						"php",
+						"otp_g.php"
+					]
+				},
+				"description": "Sends OTP to the user's registered mobile using Fast2SMS. Requires the user to be logged in (session-based)."
+			},
+			"response": []
+		},
+		{
+			"name": "Login User (check.php)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "chetanmahalle7@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secret123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/SWP Task/php/check.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SWP Task",
+						"php",
+						"check.php"
+					]
+				},
+				"description": "Validates email/password, checks if OTP is verified, and starts user session.\r\n\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Verify OTP (verify_otp.php)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost/SWP Task/php/verify_otp_p.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SWP Task",
+						"php",
+						"verify_otp_p.php"
+					]
+				},
+				"description": "Compares the user-entered OTP with the stored one, checks if expired, and returns verification result."
+			},
+			"response": []
+		},
+		{
+			"name": "Submit Farmer Profile (farmer_details.php)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "first_name",
+							"value": "Chetan",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "Sunil",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Mahalle",
+							"type": "text"
+						},
+						{
+							"key": "mobile_no",
+							"value": "9511865752",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "04-08-2003",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"type": "text"
+						},
+						{
+							"key": "new_bussiness",
+							"value": "Yes",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Maharashtra",
+							"type": "text"
+						},
+						{
+							"key": "district",
+							"value": "Pune",
+							"type": "text"
+						},
+						{
+							"key": "taluka",
+							"value": "Mulshi",
+							"type": "text"
+						},
+						{
+							"key": "village",
+							"value": "Lavale",
+							"type": "text"
+						},
+						{
+							"key": "pincode",
+							"value": "412115",
+							"type": "text"
+						},
+						{
+							"key": "street",
+							"value": "Near temple",
+							"type": "text"
+						},
+						{
+							"key": "residence",
+							"value": "Own",
+							"type": "text"
+						},
+						{
+							"key": "farmer_type",
+							"value": "Organic,Small",
+							"type": "text"
+						},
+						{
+							"key": "crops",
+							"value": "Wheat,Rice",
+							"type": "text"
+						},
+						{
+							"key": "market",
+							"value": "Local",
+							"type": "text"
+						},
+						{
+							"key": "land_state",
+							"value": "Maharashtra",
+							"type": "text"
+						},
+						{
+							"key": "land_district",
+							"value": "Pune",
+							"type": "text"
+						},
+						{
+							"key": "land_taluka",
+							"value": "Mulshi",
+							"type": "text"
+						},
+						{
+							"key": "land_village",
+							"value": "Lavale",
+							"type": "text"
+						},
+						{
+							"key": "survey_no",
+							"value": "101",
+							"type": "text"
+						},
+						{
+							"key": "sub_survey_no",
+							"value": "A",
+							"type": "text"
+						},
+						{
+							"key": "owner_name",
+							"value": "Chetan Mahalle",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/SWP Task/php/farmer_details.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SWP Task",
+						"php",
+						"farmer_details.php"
+					]
+				},
+				"description": "Submits complete farmer registration data into a dynamically created table specific to each logged-in user. Table is auto-generated if not already present."
+			},
+			"response": []
+		}
+	]
+}
