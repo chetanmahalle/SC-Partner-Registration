@@ -76,7 +76,7 @@ Import the SQL file (if available) to create the required tables.
 
 Open your browser and visit:
 
-http://localhost/SWP Task/profile.php
+http://localhost/SWP Task/php/profile.php
 
 6. Create an SCP Account
 
@@ -85,7 +85,7 @@ Sample Api Requests-
 
  1. Login (login.php)
 
-URL: http://localhost/SWP TasK/login.php
+URL: http://localhost/SWP Task/php/login.php
 
 Method: POST
 
@@ -98,7 +98,7 @@ Body:
 
 2. Generate OTP (otp_g.php)
 
-URL: http://localhost/SWP TASK/otp_g.php
+URL: http://localhost/SWP Task/php/otp_g.php
 
 Method: POST
 
@@ -112,7 +112,7 @@ Body:
 
 3. Farmer Profile Details (profile_details.php)
 
-URL: http://localhost/SWP TASK/profile_details.php
+URL: http://localhost/SWP Task/php/profile_details.php
 
 Method: POST
 
@@ -130,7 +130,7 @@ Body:
 
  4. Farmer Address Details (address_detail.php)
 
-URL: http://localhost/SWP TASK/address_detail.php
+URL: http://localhost/SWP Task/php/address_detail.php
 
 Method: POST
 
@@ -149,7 +149,7 @@ Body:
 
  5. Full Farmer Registration (farmer_details.php)
 
-URL: http://localhost/SWP TASK/farmer_details.php
+URL: http://localhost/SWP Task/php/farmer_details.php
 
 Method: POST
 
