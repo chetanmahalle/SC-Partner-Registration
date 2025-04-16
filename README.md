@@ -76,7 +76,7 @@ Import the SQL file (if available) to create the required tables.
 
 Open your browser and visit:
 
-http://localhost/SWP Task/php/profile.php
+http://localhost/SWP Task/profile.php
 
 6. Create an SCP Account
 
@@ -85,7 +85,7 @@ Sample Api Requests-
 
  1. Login (login.php)
 
-URL: http://localhost/SWP Task/php/login.php
+URL: http://localhost/SWP Task/login.php
 
 Method: POST
 
